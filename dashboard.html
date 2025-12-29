@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Welcome, <span id="name"></span> 👋</h1>
+        <h1>Email: <span id="userEmail"></span> 👋</h1>
+        
+
+        <p class="subtitle">
+            You have successfully logged in to your dashboard.
+        </p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Profile</h3>
+                <p>View your personal details and account info.</p>
+            </div>
+
+            <div class="card">
+                <h3>Projects</h3>
+                <p>Manage and view your saved projects.</p>
+            </div>
+
+            <div class="card">
+                <h3>Settings</h3>
+                <p>Update password and preferences.</p>
+            </div>
+        </div>
+
+        <button onclick="logout()">Logout</button>
+    </div>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="dashboard.js"></script>
+</body>
+
+</html>
